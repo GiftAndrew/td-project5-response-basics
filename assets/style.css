@@ -1,0 +1,131 @@
+*{
+    font-family: Verdana;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    margin: 0%;
+}
+.nav{
+    background-color:#4D9AAD;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: white;
+}
+.profile {
+    padding-left: 4%;
+   
+}
+.profile h2 {
+    color:#4D9AAD;
+    font-size: 45px;
+    padding-top: 10%;
+}
+.profile p{
+    font-size: 30px;
+    color: darkslategrey;
+    
+}
+.profile .profile-image {
+   margin-left: 0em;  
+   width: 100%; 
+   margin-top: 10%;
+   margin-bottom: 10%;
+   padding: 0,auto;
+}
+.designs {
+    background-color: #EBEBEB;
+    padding:5%;
+}
+
+.designs h1 {
+    color: #4D9AAD;
+    font-size: 50px;
+    padding-top: 25%;
+}
+.designs .contact-button{
+    background-color: #4D9AAD;
+    color: white;
+    width: 35%;
+    height: 35%;
+    font-size:15px ;
+    font-weight: 600;
+    border-radius: 10%;
+    margin-bottom: 25%;
+
+}
+.images-line .images {
+    padding-bottom: 20%;
+}
+.footer-1 h2 {
+    color: white;
+    width: 100%;
+    padding: 5%;
+}
+.footer-1{
+    background-color: #4D9AAD;
+
+}
+.footer-text {
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; */
+}
+.footer-text button {
+    /* width: 15%; */
+    background-color: #4D9AAD;
+    color: white;
+    width: 35%;
+    height: 35%;
+    font-size:15px ;
+    font-weight: 600;
+    border-radius: 10%;
+    margin-bottom: 5%;
+    padding: 2%;
+    margin-right: 4%;
+}
+.buttonss {
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: flex-start;
+    padding-top: 5%;
+    
+}
+.top-image {
+    margin-left: 50%;
+    margin-top: 0%;
+}
+.bottom-image {
+    margin-bottom: 0%;
+}
+.buttonss .contact-button1 {
+    background-color: white;
+    color: #4D9AAD;
+}
+.contact-button1 {
+    margin-left: 4%;
+}
+.footer-2 {
+    background-color: #157293;
+    text-align: center;
+    color: white; 
+}
+.footer-2 h4{
+    font-size: 20px;
+    margin-top: 0%;
+    padding: 15%;
+}
+.footer-2 h3 {
+    margin-top: 0%;
+}
+.logos img {
+    width: 10%;
+    padding:2%;
+}
+.footer-2 p {
+    font-size: 14px;
+    font-weight: 550;
+    padding: 20%;
+    color:azure;
+}
