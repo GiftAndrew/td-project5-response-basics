@@ -4,26 +4,38 @@
 }
 body {
     width: 100%;
-    margin: 0%;
+    margin: 0;
+    padding: 0;
 }
-.nav{
+.header{
     background-color:#4D9AAD;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-direction: column;
     color: white;
+    padding: 1.5em;
 }
+.nav a {
+    color: white;
+    text-decoration: none;
+    border-right: 0.2em solid white;
+    padding-right: 1em;
+}
+.nav :last-child{
+    border-right: none;
+
+}
+
 .profile {
-    padding-left: 4%;
+    padding: 1.5em;
    
 }
 .profile h2 {
     color:#4D9AAD;
-    font-size: 45px;
+    font-size: 40px;
     padding-top: 10%;
 }
 .profile p{
-    font-size: 30px;
+    font-size: 20px;
     color: darkslategrey;
     
 }
@@ -32,17 +44,16 @@ body {
    width: 100%; 
    margin-top: 10%;
    margin-bottom: 10%;
-   padding: 0,auto;
+   padding: 0 auto;
 }
 .designs {
     background-color: #EBEBEB;
-    padding:5%;
+    padding: 1.5em;
 }
 
 .designs h1 {
     color: #4D9AAD;
     font-size: 50px;
-    padding-top: 25%;
 }
 .designs .contact-button{
     background-color: #4D9AAD;
@@ -52,11 +63,13 @@ body {
     font-size:15px ;
     font-weight: 600;
     border-radius: 10%;
-    margin-bottom: 25%;
+    margin-bottom: 5%;
 
 }
-.images-line .images {
-    padding-bottom: 20%;
+.images {
+    width: 100%;
+    margin: 1em auto;
+
 }
 .footer-1 h2 {
     color: white;
@@ -129,3 +142,55 @@ body {
     padding: 20%;
     color:azure;
 }
+
+/* ---------MEDIA QUERY-------
+------------------------------- */
+
+@media (min-width: 768px) {
+    .header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+    .nav{
+        padding-top: 1.5em;
+    }
+    .profile .profile-image {
+        width: 40%;  
+        margin-bottom: 5%;
+
+    }
+    .profile {
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .profile .text p {
+        font-size: 24px;
+    }
+    .text {
+        width: 45%;
+    }
+    .nav{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .images-line {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .images {
+        width: 40%;   
+    }
+    .design h1 {
+        width: 60%;
+    }
+    .contact-button{
+
+    }
+   
+
+   }   
+        
+    
